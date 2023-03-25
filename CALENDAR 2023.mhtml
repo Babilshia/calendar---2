@@ -1,0 +1,146 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://127.0.0.1:5500/index.html
+Subject: CALENDAR 2023
+Date: Sat, 25 Mar 2023 12:33:06 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--3kUfYrw8C1AQlcCun7a4cfVrnGIlSO5OI16Li8MLCR----"
+
+
+------MultipartBoundary--3kUfYrw8C1AQlcCun7a4cfVrnGIlSO5OI16Li8MLCR----
+Content-Type: text/html
+Content-ID: <frame-6E38FD99702914463A0BDC5DCBEA4312@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://127.0.0.1:5500/index.html
+
+<!DOCTYPE html><html lang=3D"en"><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8">
+   =20
+    <meta http-equiv=3D"X-UA-Compatible" content=3D"IE=3Dedge">
+    <meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=
+=3D1.0">
+    <title>CALENDAR 2023</title>
+    <link rel=3D"stylesheet" href=3D"http://127.0.0.1:5500/style.css">
+  </head>
+ <body data-new-gr-c-s-check-loaded=3D"14.1027.0" data-gr-ext-installed=3D"=
+">
+
+    <div id=3D"container">
+        <div id=3D"header">
+            <div id=3D"monthDisplay">March 2023</div>
+            <div>
+                <button id=3D"backbutton">Back</button>
+                <button id=3D"nextbutton">Next</button>
+            </div>
+        </div>
+
+      <div id=3D"weekdays">
+        <div> Sunday</div>
+        <div>Monday</div>
+        <div>Tuesday</div>
+        <div>Wednesday</div>
+        <div>Thursday</div>
+        <div>Friday</div>
+        <div>Saturday</div>
+      </div>
+
+    <div id=3D"calendar"><div class=3D"day padding"></div><div class=3D"day=
+ padding"></div><div class=3D"day padding"></div><div class=3D"day">1</div>=
+<div class=3D"day">2</div><div class=3D"day">3</div><div class=3D"day">4</d=
+iv><div class=3D"day">5</div><div class=3D"day">6</div><div class=3D"day">7=
+</div><div class=3D"day">8</div><div class=3D"day">9</div><div class=3D"day=
+">10</div><div class=3D"day">11</div><div class=3D"day">12</div><div class=
+=3D"day">13</div><div class=3D"day">14</div><div class=3D"day">15</div><div=
+ class=3D"day">16</div><div class=3D"day">17</div><div class=3D"day">18</di=
+v><div class=3D"day">19</div><div class=3D"day">20</div><div class=3D"day">=
+21</div><div class=3D"day">22</div><div class=3D"day">23</div><div class=3D=
+"day">24</div><div class=3D"day">25</div><div class=3D"day">26</div><div cl=
+ass=3D"day">27</div><div class=3D"day">28</div><div class=3D"day">29</div><=
+div class=3D"day">30</div><div class=3D"day">31</div></div>
+    </div>
+   =20
+    <div id=3D"newEventModal">
+        <h2>New Event</h2>
+
+        <input id=3D"eventTitleInput" placeholder=3D"Event Title">
+
+    <button id=3D"saveButton">Save</button>
+    <button id=3D"cancelButton">Cancel</button>
+
+    </div>
+
+    <div id=3D"modalBackDrop"></div>
+
+
+   =20
+ <!-- Code injected by live-server -->
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root=3D"true"><=
+template shadowmode=3D"open"><div aria-label=3D"grammarly-integration" role=
+=3D"group" tabindex=3D"-1" class=3D"grammarly-desktop-integration" data-con=
+tent=3D"{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;=
+isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integrati=
+on></html>
+------MultipartBoundary--3kUfYrw8C1AQlcCun7a4cfVrnGIlSO5OI16Li8MLCR----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://127.0.0.1:5500/style.css
+
+@charset "utf-8";
+
+body { display: flex; margin-top: 50px; justify-content: center; background=
+-color: rgb(255, 252, 255); }
+
+button { width: 75px; cursor: pointer; box-shadow: gray 0px 0px 2px; border=
+: none; outline: none; padding: 5px; border-radius: 5px; color: white; }
+
+#header { padding: 10px; color: rgb(211, 108, 108); font-size: 26px; font-f=
+amily: sans-serif; display: flex; justify-content: space-between; }
+
+#header button { background-color: rgb(146, 161, 209); }
+
+#container { width: 770px; }
+
+#weekdays { width: 100%; display: flex; color: rgb(36, 123, 160); }
+
+#weekdays div { width: 100px; padding: 10px; }
+
+#calendar { width: 100%; margin: auto; display: flex; flex-wrap: wrap; }
+
+.day { width: 100px; padding: 10px; height: 100px; cursor: pointer; box-siz=
+ing: border-box; background-color: white; margin: 5px; box-shadow: rgb(203,=
+ 212, 194) 0px 0px 3px; display: flex; flex-direction: column; justify-cont=
+ent: space-between; }
+
+.day:hover { background-color: rgb(232, 250, 237); }
+
+.day + #currentDay { background-color: rgb(232, 244, 250); }
+
+.event { font-size: 10px; padding: 3px; background-color: rgb(88, 186, 228)=
+; color: white; border-radius: 5px; max-height: 55px; overflow: hidden; }
+
+.padding { cursor: default !important; background-color: rgb(255, 252, 255)=
+ !important; box-shadow: none !important; }
+
+#newEventModal, #deleteEventModal { display: none; z-index: 20; padding: 25=
+px; background-color: rgb(232, 244, 250); box-shadow: black 0px 0px 3px; bo=
+rder-radius: 5px; width: 350px; top: 100px; left: calc(-125%); position: ab=
+solute; font-family: sans-serif; }
+
+#eventTitleInput { padding: 10px; width: 100%; box-sizing: border-box; marg=
+in-bottom: 25px; border-radius: 3px; outline: none; border: none; box-shado=
+w: gray 0px 0px 3px; }
+
+#eventTitleInput.error { border: 2px solid red; }
+
+#cancelButton, #deleteButton { background-color: rgb(211, 108, 108); }
+
+#saveButton, #closeButton { background-color: rgb(146, 161, 209); }
+
+#eventText { font-size: 14px; }
+
+#modalBackDrop { display: none; top: 0px; left: 0px; z-index: 10; width: 10=
+0vw; height: 100vh; position: absolute; }
+------MultipartBoundary--3kUfYrw8C1AQlcCun7a4cfVrnGIlSO5OI16Li8MLCR------
